@@ -130,8 +130,7 @@
                       data-out-animation="fadeOutUp"
                       data-out-animation-delay="300"
                     >
-                      We're currently working on creating something
-                      fantastic.<br />
+                      We're currently working on creating something fantastic.
                       We'll be here soon.
                     </p>
                   </div>
@@ -140,6 +139,7 @@
                 <div class="choices">
                   <div
                     class="ui cards"
+                    id="choices"
                     data-animation="fadeInDown"
                     data-animation-delay="300"
                     data-out-animation="fadeOutUp"
@@ -175,6 +175,24 @@
                       </div>
                     </div>
                   </div>
+
+                  <div
+                    class="ui cards"
+                    data-animation="fadeInDown"
+                    data-animation-delay="300"
+                    data-out-animation="fadeOutUp"
+                    data-out-animation-delay="300"
+                  >
+                    <div
+                      class="card"
+                      id="end"
+                      style="margin: 2rem auto; display: none"
+                    >
+                      <div class="content">
+                        <div class="description" id="end">The End</div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
 
                 <button
@@ -187,6 +205,19 @@
                   id="select"
                 >
                   <span class="button-label">Select</span>
+                </button>
+
+                <button
+                  class="btn btn-default"
+                  data-hover="Select"
+                  data-animation="fadeInDown"
+                  data-animation-delay="600"
+                  data-out-animation="fadeOutUp"
+                  data-out-animation-delay="600"
+                  id="restart"
+                  style="display: none"
+                >
+                  <span class="button-label">Restart</span>
                 </button>
               </div>
             </div>
