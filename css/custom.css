@@ -1,0 +1,16 @@
+/* Custom css for cards */
+.ui.cards {
+  justify-content: center;
+}
+
+#choice {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#choice:hover {
+  background-color: #fff;
+}
+
+#choice.selected {
+  background-color: #fff;
+}
